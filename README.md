@@ -19,9 +19,9 @@
    ```
 
 2. **Install packages:**
-  ```bash
+   ```bash
    docker-compose exec app composer install
-  ```
+   ```
 
 3. **Run Database Migrations:**
    ```bash
