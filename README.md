@@ -18,12 +18,12 @@
    docker-compose up -d
    ```
 
-1. **Install packages:**
+2. **Install packages:**
   ```bash
-  docker-compose exec app composer install
+   docker-compose exec app composer install
   ```
 
-2. **Run Database Migrations:**
+3. **Run Database Migrations:**
    ```bash
    docker-compose exec app php artisan migrate
    ```
